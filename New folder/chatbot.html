@@ -1,0 +1,536 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Drawerr</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/drawerr.css">
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+rel="stylesheet"
+/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Blue-Slider CSS -->
+<link rel="stylesheet" href="css/style.min.css">
+<link rel="stylesheet" href="css/fontello.css">
+<!-- Blue-Slider JS -->
+<script src="js/blue-slider.js"></script>
+    <style>
+        * {
+            box-sizing:border-box;
+        }
+
+       body {
+           margin:0;
+           font-family: 'Raleway', sans-serif;
+           font-weight:400;
+       }
+
+        header {
+            position: fixed;
+            width:100%;
+            height:80px;
+            display:flex;
+            padding:0 15px;
+            justify-content:space-between;
+            align-items:center;
+            background: linear-gradient(45deg,#e4e5e7 0,#e2e3e4 100%);
+            color:#fff;
+            z-index:2;
+        }
+
+        header ul {
+            display:flex;
+            margin:0;
+            padding:0;
+            list-style:none;
+        }
+
+        header li {
+            height:50px;
+            padding:0 .5em;
+            line-height:50px;
+        }
+
+        button {
+            background:none;
+            border:none;
+            color:#fff;
+        }
+
+        .fa {
+            margin-right:10px;
+        }
+
+       img {
+            max-width:auto;
+            height:50px;
+        }
+
+        main {
+            padding:80px 15px 15px;
+            line-height:1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <ul>
+        <button class="toggleDrawerr">
+            <span></span>
+            <span></span>
+            <span></span>
+          
+        </button>
+        <li class="logo" style="font-size:2rem;">
+           <img src="img/Pragathi logo.png" alt="" >
+        </li>
+    </ul>
+</header>
+<main style="width:70vw; margin:0 auto;">
+     
+
+</main>
+<nav id="drawerr" class="drawerr--init">
+	<div class="drawerr-container">
+		<div class="drawerr-navigation-container"></div>
+		<ul>
+			<li>
+				<a href="#">Cloud services</a>
+				<ul>
+					<li>
+						<a class="active" href="http://www.google.nl">Amazon AWS</a>
+						<a href="#">Google Cloud</a>
+					</li>
+					<li><a href="#">Dropbox</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="#">Programming languages</a>
+				<ul>
+					<li>
+						<a href="#">PHP</a>
+						<ul>
+							<li>
+								<a href="#">Laravel</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">C#</a></li>
+					<li><a href="#">Python</a></li>
+					<li><a href="#">C++</a></li>
+					<li><a href="#">Ruby</a></li>
+					<li><a href="#">Java</a></li>
+					<li><a href="#">Rust</a></li>
+					<li><a href="#">Haskell</a></li>
+					<li>
+						<a href="#">JavaScript</a>
+						<ul>
+							<li>
+								<a href="#">React</a>
+								<ul>
+									<li>
+										<a href="https://www.google.nl">
+											PreReact
+										</a>
+										<a href="#">
+											React Fiber
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Vue</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="#">Get in touch</a>
+			</li>
+			<li>
+				<a href="#">About us</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<nav id="sidemenu" class="drawerr--init">
+    <ul>
+        <li>
+            <a href="">Lorem ipsum</a></li>
+        <a href="">Audiam</a>
+    </ul>
+</nav>
+
+<!------slide----------->
+<!---------chat bot-->
+
+<section id="Chatbot" class="mt-5">
+    <div class="container-fluid">
+        <div class="row gx-5">
+            <div class="col-md-12">
+                <!-- Button trigger modal -->
+<button type="button " class=" " data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <img src="img/Graphicloads-100-Flat-2-Chat-2.ico" class="" alt="" height="" width="">
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            <img src="img/Pragathi logo.png" alt=""> 
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         
+            
+    <div class="container-fluid " style="background: rgb(235, 235, 235);border: 8px solid #3b3c83;">
+        <h5 class=" text-center mt-3" style="color:#3b3c83; font-family: sans-serif;">Please select the type of assistance you require</h5>
+        <label ><h4 class="mt-3" style=" color: #3b3c83;font-weight: 800; font-family: sans-serif;font-size: 18px;">Technical <br><span style="font-size: 14px;">+91 7795663718</span> </h4></label>
+        <input type="search" placeholder="Offline" style="font-family: sans-serif;"> <button type="button" class="btn btn-sm text-center" style="color: #fff; background: #2ec7db;" data-bs-toggle="modal" data-bs-target="#pop">Email</button>
+        <br><br>
+        <label ><h3 class="mt-2" style=" color: #3b3c83;font-weight: 800; font-family: sans-serif;font-size: 18px;">Services <br> <span style="font-size: 14px;">+91 7795663718</span> </h3></label>
+        <input type="search" placeholder="Offline" style="font-family: sans-serif;"> <button type="button" class="btn btn-sm text-center" style="color: #fff; background: #2ec7db;" data-bs-toggle="modal" data-bs-target="#pop">Email</button>
+        <br><br>
+        <label  class="mb-3"><h3 class="mb-3" style=" color: #3b3c83;font-weight: 800; font-family: sans-serif;font-size: 18px;">Sales <br> <span style="font-size: 14px;">+91 9448030426</span>  </h3></label>
+        <input type="search"  placeholder="Offline" style="font-family: sans-serif;"> <button type="button" class="btn btn-sm text-center mb-1" style="color: #fff; background: #2ec7db;" data-bs-toggle="modal" data-bs-target="#pop">Email</button>
+  
+      </div>
+           
+        </div>
+       
+      </div>
+    </div>
+  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal fade" id="pop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="font-family: sans-serif;font-weight: 400;font-size: 14px;color: rgb(31, 29, 29);">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+          <img src="img/Pragathi logo.png" alt="pragathi logo">
+         
+          </h1>
+         
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <h4 class="text-center" style="color: #3b3c83;">Sorry you couldn't reach us</h4>
+        
+        <p class="text-center" style="font-size: 14px; color: #424244;font-weight: 400;font-family: sans-serif;">Please populate your details in the below form and submit your query. We will respond to your query within one business day.</p>
+        <div class="modal-body" style="background: #f3f3f3;">
+          
+          
+       
+            <form >
+                <div class="mb-2">
+                   <label for="head" class="form-label">Select Services</label>
+                   <select class="form-select mb-2" aria-label="Default select example" required>
+                    <option selected >Select Services</option>
+                    <option value="1">Technical</option>
+                    <option value="2">Sales</option>
+                    <option value="3">Services</option>
+                  </select>
+
+
+                    <label for="head" class="form-label">Select Products</label>
+                    <select class="form-select mb-2" aria-label="Default select example" required>
+                        <option value="">Select products</option>
+                        <option value="1">Diagnostics</option>
+                        <option value="2">Flashing</option>
+                        <option value="3">End of line</option>
+                        <option value="4">Cloud computing</option>
+                        <option value="5">Telematics</option>
+                        <option value="6">Electric vehicle Diagnostics & Flashing</option>
+                   
+                      </select>
+                      
+                  <div class="mb-2">
+                    <label for="head" class="form-label">Whate type of query do you want to raise?</label>
+                    <input type="dropdown" class="form-control" id="dropdown" required>
+                   
+                   </div>
+                  <label for="Name" class="form-label">Your Name</label>
+                  <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" required>
+                  
+                </div>
+                <div class="mb-2">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputemail1" required>
+                </div>
+               <div class="mb-2">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="phone" class="form-control" id="phone" required>
+               </div>
+               <div class="mb-2">
+                <label for="Subject" class="form-label">Subject</label>
+                <input type="subject" class="form-control" id="subject" required>
+               </div>
+               <div class="mb-2">
+                <label for="text" class="form-label" >Your question or request</label>
+                <textarea rows="1" cols="20" class="form-control" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-sm btn-primary">Submit</button>
+              </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+<!----------------
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <article>
+                    <h2>Lorem, ipsum.</h2>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur,<span><a href="#" data-bs-toggle="tooltip" title="Read more">adipisicing elit.</a></span>  Harum voluptas consequuntur natus officia odio aperiam.</p>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<hr class="hr hr-blurry my-5" />
+<section id="" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+               <div class="card text-center">
+                 <div class="card-header">Featured</div>
+                 <div class="card-body">
+                   <h5 class="card-title">Special title treatment</h5>
+                   <p class="card-text">
+                     With supporting text below as a natural lead-in to additional content.
+                   </p>
+                  
+                 </div>
+                 <div class="card-footer text-muted">2 days ago</div>
+               </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                  <div class="card-header">Featured</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">
+                      With supporting text below as a natural lead-in to additional content.
+                    </p>
+                   
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+             </div>
+             <div class="col-md-4">
+                <div class="card text-center">
+                  <div class="card-header">Featured</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">
+                      With supporting text below as a natural lead-in to additional content.
+                    </p>
+                   
+                  </div>
+                  <div class="card-footer text-muted">2 days ago</div>
+                </div>
+             </div>
+        </div>
+    </div>
+</section>
+<hr class="hr hr-blurry my-5"  />
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a
+                  class="btn text-white btn-floating"
+                  style="background-color: #3b5998"
+                  href="#!"
+                  role="button"
+                  ><i class="fa fa-amazon" aria-hidden="true"></i></a>
+                
+            </div>
+            <div class="col-md-12">
+<a class="btn text-white btn-floating"
+style="background-color: #3b5998;" href="#!" role="button"><i class="fa fa-facebook" ></i></a>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <button type="button" class="btn btn-primary">Button</button>
+              </div>
+            </div>  
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                  <button type="button" class="btn btn-primary"></button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>
+                  <button type="button" class="btn btn-primary"></button>
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="">
+  <div class=" container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3><a href="#" class="btn">popperjs bootstrap</a></h3>
+        <h3><a href="#" class="btn">polyfill.io</a></h3>
+        <h3><a href="#" class="btn">Dashbord</a></h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="form_control" class="form">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <form>
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form1Example1" class="form-control" />
+            <label class="form-label" for="form1Example1">Email address</label>
+          </div>
+        
+          <!-- Password input -->
+          <div class="form-outline mb-4">
+            <input type="password" id="form1Example2" class="form-control" />
+            <label class="form-label" for="form1Example2">Password</label>
+          </div>
+        
+          <!-- 2 column grid layout for inline styling -->
+          <div class="row mb-4">
+            <div class="col d-flex justify-content-center">
+              <!-- Checkbox -->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="form1Example3"
+                  checked
+                />
+                <label class="form-check-label" for="form1Example3">
+                  Remember me
+                </label>
+              </div>
+            </div>
+        
+            <div class="col">
+              <!-- Simple link -->
+              <a href="#!">Forgot password?</a>
+            </div>
+          </div>
+        
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+        </form>
+        <div class="form">
+          <label class="name" action="form-label">Name</label>
+          <input type="name" action="form-control" placeholder="name" required>
+          <label class="email" action="form-label">email</label>
+          <input type="email" action="form-control" placeholder="email" required>
+          <label class="name" action="form-label">phone</label>
+          <input type="phone" action="form-control" placeholder="phone" required>
+          <button type="button" class="btn btn-sm btn-primary">submit</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---------------->
+<!-- MDB -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+></script>
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+<script src="dist/drawerr.js"></script>
+<script src="jq.js"></script>
+<!-- jQuery --
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+    const x = new drawerrMultilevel({
+        drawerr: '#drawerr'
+    });
+</script>
+<!---chat---->
+<script type="text/javascript">
+  (function() {
+      window.sib = {
+          equeue: [],
+          client_key: "soq2zky4tcbxilm3uxi9465j"
+      };
+      /* OPTIONAL: email for identify request*/
+      // window.sib.email_id = 'example@domain.com';
+      window.sendinblue = {};
+      for (var j = ['track', 'identify', 'trackLink', 'page'], i = 0; i < j.length; i++) {
+      (function(k) {
+          window.sendinblue[k] = function() {
+              var arg = Array.prototype.slice.call(arguments);
+              (window.sib[k] || function() {
+                      var t = {};
+                      t[k] = arg;
+                      window.sib.equeue.push(t);
+                  })(arg[0], arg[1], arg[2], arg[3]);
+              };
+          })(j[i]);
+      }
+      var n = document.createElement("script"),
+          i = document.getElementsByTagName("script")[0];
+      n.type = "text/javascript", n.id = "sendinblue-js", n.async = !0, n.src = "https://sibautomation.com/sa.js?key=" + window.sib.client_key, i.parentNode.insertBefore(n, i), window.sendinblue.page();
+  })();
+  </script>
+</body>
+</html>
